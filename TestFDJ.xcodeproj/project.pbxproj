@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF25CC662AD021A000BC5A12 /* LeagueDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25CC652AD021A000BC5A12 /* LeagueDTO.swift */; };
+		FF25CC682AD021EA00BC5A12 /* ResponsesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25CC672AD021EA00BC5A12 /* ResponsesDTO.swift */; };
+		FF25CC6A2AD0220E00BC5A12 /* TeamDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25CC692AD0220E00BC5A12 /* TeamDTO.swift */; };
 		FFB991602ACF180C0011A70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9915F2ACF180C0011A70D /* AppDelegate.swift */; };
 		FFB991622ACF180C0011A70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB991612ACF180C0011A70D /* SceneDelegate.swift */; };
 		FFB991642ACF180C0011A70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB991632ACF180C0011A70D /* ViewController.swift */; };
@@ -56,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF25CC652AD021A000BC5A12 /* LeagueDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueDTO.swift; sourceTree = "<group>"; };
+		FF25CC672AD021EA00BC5A12 /* ResponsesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsesDTO.swift; sourceTree = "<group>"; };
+		FF25CC692AD0220E00BC5A12 /* TeamDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDTO.swift; sourceTree = "<group>"; };
 		FFB9915C2ACF180C0011A70D /* TestFDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB9915F2ACF180C0011A70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB991612ACF180C0011A70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF25CC642AD0218400BC5A12 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				FF25CC652AD021A000BC5A12 /* LeagueDTO.swift */,
+				FF25CC672AD021EA00BC5A12 /* ResponsesDTO.swift */,
+				FF25CC692AD0220E00BC5A12 /* TeamDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
 		FFB991532ACF180C0011A70D = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +287,7 @@
 		FFB991B92ACF56280011A70D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				FF25CC642AD0218400BC5A12 /* DTOs */,
 				FFB991BA2ACF56360011A70D /* Responses */,
 				FFB991B42ACF522A0011A70D /* TheSportsDBDataSource.swift */,
 			);
@@ -450,8 +467,10 @@
 			files = (
 				FFB991CC2AD001310011A70D /* DIContainer.swift in Sources */,
 				FFB991EB2AD017750011A70D /* AppConfig.swift in Sources */,
+				FF25CC682AD021EA00BC5A12 /* ResponsesDTO.swift in Sources */,
 				FFB991992ACF29970011A70D /* LeagueRepositoryImpl.swift in Sources */,
 				FFB991C62ACFF7B60011A70D /* TeamsViewController.swift in Sources */,
+				FF25CC6A2AD0220E00BC5A12 /* TeamDTO.swift in Sources */,
 				FFB991642ACF180C0011A70D /* ViewController.swift in Sources */,
 				FFB9919D2ACF2B430011A70D /* GetAllLeaguesUseCase.swift in Sources */,
 				FFB991602ACF180C0011A70D /* AppDelegate.swift in Sources */,
@@ -461,6 +480,7 @@
 				FFB991C92ACFF9A30011A70D /* TeamViewModel.swift in Sources */,
 				FFB991C02ACF6B420011A70D /* LeagueViewModel.swift in Sources */,
 				FFB9919F2ACF2B520011A70D /* GetTeamsFromLeagueUseCase.swift in Sources */,
+				FF25CC662AD021A000BC5A12 /* LeagueDTO.swift in Sources */,
 				FFB991CE2AD009DC0011A70D /* TeamCollectionViewCell.swift in Sources */,
 				FFB991622ACF180C0011A70D /* SceneDelegate.swift in Sources */,
 				FFB991B52ACF522A0011A70D /* TheSportsDBDataSource.swift in Sources */,

@@ -46,31 +46,3 @@ class TheSportsDBDataSource {
     }
 }
 
-struct LeaguesResponseDTO: Codable {
-    let leagues: [LeagueDTO]
-}
-
-struct TeamsResponseDTO: Codable {
-    let teams: [TeamDTO]
-}
-
-struct LeagueDTO: Codable {
-    let idLeague: String
-    let strLeague: String
-    let strSport: String
-    let strLeagueAlternate: String?
-
-    func toEntity() -> League {
-        return League(idLeague: idLeague, strLeague: strLeague, strSport: strSport, strLeagueAlternate: strLeagueAlternate ?? "")
-    }
-}
-
-struct TeamDTO: Codable {
-    let idTeam: String
-    let strTeam: String
-    let strTeamBadge: String
-
-    func toEntity() -> Team {
-        return Team(idTeam: idTeam, strTeam: strTeam, strTeamBadge: strTeamBadge)
-    }
-}
