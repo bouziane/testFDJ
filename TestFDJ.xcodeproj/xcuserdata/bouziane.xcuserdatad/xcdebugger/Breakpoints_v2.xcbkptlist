@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2AFDFCF4-3049-467D-9EE3-100FD441C9D5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77C1F7D6-E79C-43CA-84B1-D2F84FB184E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getTeamsFromLeague(leagueName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77C1F7D6-E79C-43CA-84B1-D2F84FB184E5 - 79240f9177f05b57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFDJ.TheSportsDBDataSource.getTeamsFromLeague(leagueName: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.Team&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "77C1F7D6-E79C-43CA-84B1-D2F84FB184E5 - 51147248ecb022ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Swift.Array&lt;TestFDJ.League&gt; in TestFDJ.TheSportsDBDataSource.getAllLeagues() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.League&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "77C1F7D6-E79C-43CA-84B1-D2F84FB184E5 - ce20eb8812a9f86e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TestFDJ.LeagueDTO) -&gt; TestFDJ.League in closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Swift.Array&lt;TestFDJ.League&gt; in TestFDJ.TheSportsDBDataSource.getAllLeagues() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.League&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C93EA329-B196-4122-A663-09219219364B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getTeamsFromLeague(leagueName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C93EA329-B196-4122-A663-09219219364B - 51147248ecb0228f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Swift.Array&lt;TestFDJ.League&gt; in TestFDJ.TheSportsDBDataSource.getAllLeagues() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.League&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "C93EA329-B196-4122-A663-09219219364B - 79240f9177f053f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFDJ.TheSportsDBDataSource.getTeamsFromLeague(leagueName: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.Team&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "831C126B-99B3-4987-8298-6F67A017BC56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJTests/LeagueRepositoryImplTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "testGetTeamsFromLeague_Success()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BE9BEB6-5B38-417F-87FA-C93FD8A673A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Presentation/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52186B6A-B932-4D38-9ECE-89EAC322615E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Presentation/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AE1699A-C2F4-4B38-B7BD-E21FA819EA1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Presentation/ViewModels/TeamViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40">
+            <Locations>
+               <Location
+                  uuid = "6AE1699A-C2F4-4B38-B7BD-E21FA819EA1F - 7516e48afc82ba3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFDJ.TeamViewModel.fetchTeams(for: Swift.String) -&gt; ()"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Presentation/ViewModels/TeamViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "6AE1699A-C2F4-4B38-B7BD-E21FA819EA1F - 6e7b2ccba994999e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;TestFDJ.Team&gt;) -&gt; () in TestFDJ.TeamViewModel.fetchTeams(for: Swift.String) -&gt; ()"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Presentation/ViewModels/TeamViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "6AE1699A-C2F4-4B38-B7BD-E21FA819EA1F - 6e7b2ccba994999e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;TestFDJ.Team&gt;) -&gt; () in TestFDJ.TeamViewModel.fetchTeams(for: Swift.String) -&gt; ()"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Presentation/ViewModels/TeamViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D18D2007-4CBD-4F08-BADD-78205A3B7772"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getTeamsFromLeague(leagueName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D18D2007-4CBD-4F08-BADD-78205A3B7772 - fd6850abb2255f3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Swift.Array&lt;TestFDJ.Team&gt; in TestFDJ.TheSportsDBDataSource.getTeamsFromLeague(leagueName: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.Team&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "D18D2007-4CBD-4F08-BADD-78205A3B7772 - b5e9fa108e996647"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TestFDJ.TeamDTO) -&gt; TestFDJ.Team in closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Swift.Array&lt;TestFDJ.Team&gt; in TestFDJ.TheSportsDBDataSource.getTeamsFromLeague(leagueName: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;TestFDJ.Team&gt;, Swift.Error&gt;"
+                  moduleName = "TestFDJ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bouziane/Documents/dev/Stowa/iOS/FDJ/TestFDJ/TestFDJ/Data/DataSources/Network/TheSportsDBDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
